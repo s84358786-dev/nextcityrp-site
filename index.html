@@ -1,29 +1,155 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Next City RP</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#111827;
+color:white;
+}
+
+header{
+background:#0f172a;
+padding:20px;
+text-align:center;
+border-bottom:3px solid #00bfff;
+}
+
+header h1{
+font-size:42px;
+margin:0;
+color:#00bfff;
+}
+
+nav{
+margin-top:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+}
+
+.hero{
+padding:80px 20px;
+text-align:center;
+background:linear-gradient(90deg,#2563eb,#0f172a);
+}
+
+.hero h2{
+font-size:40px;
+}
+
+.hero p{
+font-size:20px;
+max-width:700px;
+margin:auto;
+}
+
+.button{
+display:inline-block;
+margin-top:25px;
+padding:15px 35px;
+background:#00bfff;
+color:white;
+text-decoration:none;
+border-radius:10px;
+font-size:20px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:40px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+border-radius:15px;
+text-align:center;
+}
+
+.card h3{
+color:#00bfff;
+}
+
+footer{
+background:#0f172a;
+padding:20px;
+text-align:center;
+margin-top:30px;
+}
+</style>
+
 </head>
 
 <body>
-<h1>🌆 Добро пожаловать в Next City RP!</h1>
+
+<header>
+
+<h1>🌆 Next City RP</h1>
+
+<nav>
+<a href="#">Главная</a>
+<a href="#">Донат</a>
+<a href="#">Новости</a>
+<a href="#">Правила</a>
+<a href="#">Поддержка</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h2>Добро пожаловать!</h2>
 
 <p>
 Лучший RP-сервер Minecraft Bedrock Edition.
+Создай свою историю, построй карьеру и стань легендой города.
 </p>
 
-<h2>Наши возможности:</h2>
+<a class="button" href="#">Начать играть</a>
 
-<ul>
-<li>🏠 Дома и бизнес</li>
-<li>🚗 Автомобили</li>
-<li>💼 Работы</li>
-<li>🎯 Квесты и ивенты</li>
-<li>🌃 Большой город</li>
-</ul>
+</section>
 
-<h2>Скоро открытие!</h2>
+<section class="cards">
 
-<p>Next City RP — твоя история начинается здесь!</p>
+<div class="card">
+<h3>🚗 Автомобили</h3>
+<p>Большой выбор транспорта.</p>
+</div>
+
+<div class="card">
+<h3>🏠 Недвижимость</h3>
+<p>Дома, квартиры и земельные участки.</p>
+</div>
+
+<div class="card">
+<h3>💼 Работа</h3>
+<p>Полицейский, врач, таксист, строитель и другие профессии.</p>
+</div>
+
+<div class="card">
+<h3>💎 Донат-магазин</h3>
+<p>Привилегии, кейсы и эксклюзивные предметы.</p>
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Next City RP. Все права защищены.
+
+</footer>
 
 </body>
 </html>
